@@ -19,6 +19,8 @@ const RegisterModal = ({ isOpen, onClose, switchToLogin }) => {
     
     try {
       await registerWithEmail(email, password, fullName);
+      setEmail("");
+      setPassword("");
       onClose();
       switchToLogin();
     } catch (error) {
