@@ -19,6 +19,8 @@ const LoginModal = ({ isOpen, onClose, switchToRegister, onLogin }) => {
     try {
       const user = await loginWithEmail(email, password);
       if (onLogin) onLogin();
+      setEmail("");
+      setPassword("");
       onClose();
     } catch (error) {
       setError(error.message);
