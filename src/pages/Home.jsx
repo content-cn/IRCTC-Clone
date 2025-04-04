@@ -105,7 +105,7 @@ const Home = () => {
           </button>
           <button 
           className={styles.ShowTrain}
-          onClick={() => navigate("/train-search")}
+          onClick={() => navigate("/trainlist")}
           >
             Show All Trains
             </button>

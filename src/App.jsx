@@ -25,7 +25,7 @@ const RouteContentManager = () => {
       )}
       <Routes>
         <Route path="/" element={null} />
-        <Route path="/train-search" element={<TrainSearchResults />} />
+        <Route path="/Trainlist" element={<TrainSearchResults />} />
         <Route 
           path="/booking" 
           element={
