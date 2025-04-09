@@ -1,5 +1,4 @@
 import React, { useState, useEffect } from 'react';
-// import { useNavigate } from 'react-router-dom';
 import { useAuth } from '../Context/AuthContext';
 import styles from '../Styles/TrainSearchResults.module.css';
 import ModifySearch from '../Components/ModifySearch';
@@ -11,10 +10,7 @@ const TrainSearchResults = () => {
   const { currentUser } = useAuth();
   const [trains, setTrains] = useState([]);
 
-  // const handleDetailsClick = (train) => {
-  //   navigate(`/train-details/${train}`);
-
-  // };
+ 
 
   useEffect(() => {
     fetch(API_URL)
@@ -89,7 +85,7 @@ const TrainSearchResults = () => {
                 <div className={styles.actionButtons}>
                   <button className={styles.bookNowButton}>Book Now</button>
                   <button className={styles.otherDatesButton}>Other Dates</button>
-                  {/* <button className={styles.otherDatesButton} onClick={() => handleDetailsClick(train.train_number)}>Other Dates</button> */}
+
                 </div>
               </div>
             ))
