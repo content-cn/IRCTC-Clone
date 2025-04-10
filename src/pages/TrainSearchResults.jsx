@@ -87,7 +87,7 @@ const TrainSearchResults = () => {
                 </div>
                 <div className={styles.actionButtons}>
                   <button className={styles.bookNowButton}>Book Now</button>
-                  <button className={styles.otherDatesButton} onClick={() => handleDetailsClick(train.train_number)}>Other Dates</button>
+                  <button className={styles.otherDatesButton} onClick={() => handleDetailsClick(train.train_number)}>Other Details</button>
                 </div>
               </div>
             ))
