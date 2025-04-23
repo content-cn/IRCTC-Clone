@@ -27,3 +27,51 @@ The IRCTC Clone is a web application that mimics the functionality of the Indian
 - **Firebase**: For user authentication and real-time database services.
 
 ## Project Structure
+```
+IRCTC-Clone/
+├── public/                  # Public assets
+│   ├── index.html           # Main HTML file
+│   └── ...                  # Other public assets
+├── src/                     # Source files
+│   ├── components/          # React components
+│   ├── pages/               # Page components
+│   ├── firebase.js          # Firebase configuration and initialization
+│   ├── App.js               # Main application component
+│   └── index.js             # Entry point for React
+├── .gitignore               # Git ignore file
+├── README.md                # Project documentation
+├── eslint.config.js         # ESLint configuration
+├── package.json             # Project metadata and dependencies
+└── vite.config.js           # Vite configuration
+```
+
+
+## Installation & Usage
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/content-cn/IRCTC-Clone.git
+   ```
+2. Navigate to the project directory:
+  ```bash
+cd IRCTC-Clone
+```
+3. Install the dependencies:
+  ```bash
+npm install
+```
+4. Set up Firebase:
+
+Create a Firebase project in the Firebase Console.
+Enable Authentication and set up the sign-in methods you want to use (e.g., Email/Password).
+Create a Firestore database if needed for storing booking data.
+Copy your Firebase configuration and add it to firebase.js.
+
+
+5. Run the application:
+  ```bash
+npm run dev
+```
+6. Open your web browser and go to http://localhost:5173 to access the application.
+### API Integration
+The application may use third-party APIs to fetch train schedules and availability. Ensure to configure the API endpoints in the application as needed.
