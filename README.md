@@ -1,12 +1,29 @@
-# React + Vite
+# IRCTC Clone
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Description
 
-Currently, two official plugins are available:
+The IRCTC Clone is a web application that mimics the functionality of the Indian Railway Catering and Tourism Corporation (IRCTC) website. This platform allows users to search for train schedules, book tickets, and manage their bookings. It aims to provide a seamless experience for users looking to travel via Indian Railways.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Features
 
-## Expanding the ESLint configuration
+- **User  Authentication**: Secure login and registration for users to manage their bookings.
+  
+- **Train Search**: Users can search for trains based on source, destination, and date of travel.
+  
+- **Booking Management**: Users can book tickets, view their bookings, and cancel tickets if needed.
+  
+- **Responsive Design**: The application is designed to be fully responsive, ensuring a smooth experience on both desktop and mobile devices.
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Technologies Used
+
+- **JavaScript**: For client-side scripting and interactivity.
+  
+- **HTML/CSS**: For structuring and styling the web pages.
+  
+- **React**: JavaScript library for building user interfaces.
+  
+- **Vite**: Build tool that provides a fast development environment.
+  
+- **Firebase**: For user authentication and real-time database services.
+
+## Project Structure
