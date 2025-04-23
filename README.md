@@ -75,3 +75,6 @@ npm run dev
 6. Open your web browser and go to http://localhost:5173 to access the application.
 ### API Integration
 The application may use third-party APIs to fetch train schedules and availability. Ensure to configure the API endpoints in the application as needed.
+```bash
+ttps://mocki.io/v1/41189c39-e55b-4b7d-a236-529edfb9d3af
+```
