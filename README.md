@@ -64,6 +64,7 @@ npm install
 
 Create a Firebase project in the Firebase Console.
 Enable Authentication and set up the sign-in methods you want to use (e.g., Email/Password).
+<br>
 Create a Firestore database if needed for storing booking data.
 Copy your Firebase configuration and add it to firebase.js.
 
