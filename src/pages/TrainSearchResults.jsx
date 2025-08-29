@@ -3,7 +3,7 @@ import { useAuth } from '../Context/AuthContext';
 import styles from '../Styles/TrainSearchResults.module.css';
 import ModifySearch from '../Components/ModifySearch';
 
-const API_URL = 'https://mocki.io/v1/41189c39-e55b-4b7d-a236-529edfb9d3af';
+const API_URL = 'https://mocki.io/v1/4099cc1c-9657-47c3-bb3f-10c34275e817';
 
 const TrainSearchResults = () => {
   // const navigate = useNavigate();
